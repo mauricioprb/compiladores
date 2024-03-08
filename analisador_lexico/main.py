@@ -33,10 +33,10 @@ def ler_arquivo_input():
 
 def executa_AFD(linha):
   global estadoAtual
-  for caracterer in linha:
+  for caractere in linha:
     for rule in regrasTransicao:
       r = rule.split(':')
-      if r[0] == estadoAtual and caracterer in r[1]:
+      if r[0] == estadoAtual and caractere in r[1]:
         estadoAtual = r[2]
         #r[0]: estado de origem
         #r[1]: simbolos para ler
