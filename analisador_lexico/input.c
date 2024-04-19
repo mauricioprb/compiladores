@@ -1,1 +1,6 @@
-int x_123=254;
+
+void main() {
+    if ((a >= b) && (c < d)) {
+        imprime(a);
+    }
+}
